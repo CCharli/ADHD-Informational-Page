@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+<style>
+
+@media (min-width: 50vh) {
+  main {
+  width: 100%;
+  height: auto;
+  }
+  nav {
+    width: 100%;
+    height: auto;
+    overflow-wrap: break-word;
+  }
+}
+
+main {
+  font-family: 'Roboto Condensed', 'Tahoma', sans-serif;
+  font-size: 18px;
+}
+nav {
+  position: absolute;
+  font-size: 30px;
+  margin: 0;
+  justify-content: space-around;
+  align-self: left;
+  overflow: auto;
+  z-index: 2;
+  padding: 5vh;
+  word-wrap: break-word;
+}
+#navbar {
+  position: absolute;
+  max-width: 30vh;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+}
+
+#header-img {
+  display: in-line block;
+  position: relative;
+  width: 25vh;
+  height: auto;
+  left: 40%;
+  top: 1vh;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 50px;
+  position: sticky;
+  margin: 0;
+  text-align: center;
+}
+.section-header {
+  font-weight: bold;
+}
+
+a {
+  color: #99CCFF;
+}
+a:hover {
+  color: #999999;
+  opacity: .9;
+}
+a:visited {
+  color: pink;
+}
+
+header:hover {
+  color: brown;
+}
+body {
+  position: relative;
+  display: block;
+  margin: 10vh;
+  padding: 1vh;
+  align-content: center;
+  z-index; -1;
+}
+p {
+  text-indent: 10%;
+}
+ul {
+  padding-left: 13vh;
+  list-style-type: square;
+}
+code {
+  font-family: Tahoma,"courier new";
+  background-color: #f1f1f1;
+  padding: 0.4vh;
+  font-size: 105%;
+}
+#container {
+  padding: 10vh;
+  align-self: center;
+}
+#vid {
+  opacity: 0.5;
+  padding: 5vh;
+}
+#vid:hover {
+  opacity: 1;
+}
+
+@media (max-width: 1vh) {
+  container {
+    width: 100%;
+  }
+}
+
+footer {
+  position: static;
+  bottom: 0;
+  margin: 0;
+  text-align: left;
+  width: 100%;
+}
+
+</style>
