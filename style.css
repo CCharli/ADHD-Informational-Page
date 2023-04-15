@@ -25,7 +25,6 @@ nav {
   justify-content: space-around;
   align-self: left;
   overflow: auto;
-  z-index: 2;
   padding: 5vh;
   word-wrap: break-word;
 }
@@ -78,7 +77,6 @@ body {
   margin: 10vh;
   padding: 1vh;
   align-content: center;
-  z-index; -1;
 }
 p {
   text-indent: 10%;
